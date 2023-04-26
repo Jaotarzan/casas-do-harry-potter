@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+aside {
+    border: wheat;
+    text-align: right;
+    margin-right: 50px;
+}
+section {
+    text-align: left;
+    display: table;
+}
+li {
+    text-align: center;
+    list-style: none;
+    padding: 15px;
+    font-size: 20px;
+}
+button > a {
+   text-decoration: none; 
+   color: rgb(0, 0, 0);
+}
+img {
+    border: 30px solid transparent;
+    width: 300px;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'menu main main main right right'
+        'menu footer footer footer right right'
+}
+div.transbox {
+    margin: 5%;
+    background-color: rgba(0, 0, 0, 0.815)
+}
+
+.item1 {
+    grid-area: header;
+}
+
+.item2 {
+    grid-area: menu;
+}
+
+.item3 {
+    grid-area: main;
+}
+
+.item4 {
+    grid-area: right;
+}
+
+.item5 {
+    grid-area: footer;
+}
+.button {
+    text-align: center;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid goldenrod;
+  }
+  
+  .button1:hover {
+    background-color: goldenrod;
+    color: white;
+    padding: 30px;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(21, 95, 6);
+  }
+  
+  .button2:hover {
+    background-color: rgb(21, 95, 6);
+    color: white;
+    padding: 30px
+  }
+  
+  .button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid yellow;
+  }
+  
+  .button3:hover {
+    background-color: yellow;
+    color: white;
+    padding: 30px
+  }
+  
+  .button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(14, 74, 204);
+  }
+  
+  .button4:hover {
+    background-color: rgb(14, 74, 204);
+    padding: 30px
+}
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+}
+.button5:hover {
+    background-color: gray;
+    padding: 30px
+}
+th, td {
+    width: 50%;
+    border: 1px solid wheat;
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-bottom: 30px solid transparent;
+}
